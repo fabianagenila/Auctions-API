@@ -1,0 +1,28 @@
+POST http://localhost:3003/auction
+Content-Type: application/json
+
+{
+    "title": "Overly Attached Girlfriend",
+    "author": "Laina Morris",
+    "description": "photograph transformed in 2012 internet meme",
+    "initial_value": 900,
+    "bid_progression": 100,
+    "expiration_date": "2021-07-15"
+}
+
+###
+PUT http://localhost:3003/auction/bid/dddb39bc-4082-41f4-b6ae-450eb6e01dc0
+Content-Type: application/json
+
+{   "initial_value": 1000,
+    "bid_progression": 50,
+    "bid_value": 150
+}
+
+###
+GET http://localhost:3003/auction/all
+
+### 
+GET http://localhost:3003/auction/dddb39bc-4082-41f4-b6ae-450eb6e01dc0
+
+
