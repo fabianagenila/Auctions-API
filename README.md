@@ -35,7 +35,7 @@ Funcionalidades API:
 
 ----
 
-## Instruções
+## Instruções (importante!)
 
 ### Instale as dependências do NodeJS
 
@@ -73,8 +73,8 @@ DB_SCHEMA = db_schema
 
 ### Rode os endpoints
 1. Os endpoints podem ser rodados no app Postman, importando a seguinte coleção:
-
-- [Coleção de endpoints da API](")
+ 
+- [Auction API.postman_collection.zip](https://github.com/fabianagenila/Auctions-API/files/6670745/Auction.API.postman_collection.zip)
 
 2. Baixe a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) no seu VSCODE e utilize o arquivo `request.rest` dentro da aplicação.
    
